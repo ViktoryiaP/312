@@ -1,3 +1,18 @@
 git remote add origin git@github.com:ViktoryiaP/312.git
 git branch -M main
 git push -u origin main
+======
+generate your key
+ssh-keygen
+
+Visualize your keys
+ls ~/.ssh
+id_rsa id_rsa.pub
+
+Start the agent
+eval `ssh-agent`
+
+Add your key to the agent
+ssh-add ~/.ssh/id_rsa
+
+!
